@@ -20,7 +20,6 @@ const mergeAlternately = function (word1, word2) {
     if (i < word2.length) str += word2[i]
   }
 
-  console.log("Result =>", str)
 }
 
 mergeAlternately(word1, word2)
